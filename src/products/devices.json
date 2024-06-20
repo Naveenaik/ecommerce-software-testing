@@ -1,0 +1,47 @@
+{
+  "product1": {
+    "title": "Hp",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product2": {
+    "title": "Hp",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product3": {
+    "title": "Hp",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product4": {
+    "title": "Asus",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product5": {
+    "title": "Hp",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product6": {
+    "title": "Hp",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product7": {
+    "title": "Hp",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product8": {
+    "title": "Asus",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  },
+  "product9": {
+    "title": "Asus",
+    "price": "2323",
+    "description": "This is a hp laptop"
+  }
+}
