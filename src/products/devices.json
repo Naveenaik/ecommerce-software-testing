@@ -1,47 +1,56 @@
 {
-  "product1": {
-    "title": "Hp",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p0": {
+    "title": " Asus Vivobook S 15 OLED (2024)",
+    "price": "96,990",
+    "image":"https://m.media-amazon.com/images/I/71hbhqTUnAL._SX679_.jpg",
+    "description": "Display size15.60-inchDisplay resolution3200x2000 pixelsProcessor Intel Core Ultra 5OSWindows 11SSD1TBGraphics Intel Arc gpu"
   },
-  "product2": {
-    "title": "Hp",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p1": {
+    "title": "HP Victus Gaming Laptop,",
+    "price": "1,10,900",
+    "image":"https://m.media-amazon.com/images/I/81wl5P7kuAL._SX679_.jpg",
+    "description": "13th Gen Intel Core i7-13700H, 6GB RTX 4050 GPU, 15.6-inch (39.6 cm), FHD, IPS, 144Hz, 16GB DDR4, 512GB SSD, Backlit KB, B&O, Dual speakers (MSO, Blue, 2.37 kg), fa1066TX"
   },
-  "product3": {
-    "title": "Hp",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p2": {
+    "title": "ASUS ROG Strix G16 (2023)",
+    "price": "1,25,990",
+    "image":"https://m.media-amazon.com/images/I/71AaRhO6+fL._SX679_.jpg",
+    "description": "90WHr Battery, Intel Core i7-13650HX 13th Gen, 16 FHD+ 165Hz, 6GB RTX 4050, Gaming Laptop (16GB/1TB SSD/Windows 11/Office 2021/4-Zone RGB/Gray/2.50 Kg), G614JU-N3200WS"
   },
-  "product4": {
-    "title": "Asus",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p3": {
+    "title": "Dell G15-5530 Gaming Laptop",
+    "price": "76,990",
+    "image":"https://m.media-amazon.com/images/I/41jsXncCW4L._SX300_SY300_QL70_FMwebp_.jpg",
+    "description": "Intel Core i5-13450HX Processor, 16GB DDR5, 512GB,NVIDIA RTX 3050,6GB GDDR6, 15.6 (39.62cm) FHD 120Hz 250 nits, Backlit KB Orange,Win 11 + MSO'21,Dark Shadow Gray, 2.65kg"
   },
-  "product5": {
-    "title": "Hp",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p4": {
+    "title": "HP OMEN Gaming Laptop,",
+    "price": "1,36,990",
+    "image":"https://m.media-amazon.com/images/I/71cO11KaVgL._SX679_.jpg",
+    "description": "14th Gen Intel Core i7-14650HX, 8GB RTX 4060 GPU, 16.1-inch (40.9 cm), FHD, IPS, 144Hz, 300 nits, 16GB DDR5, 1TB SSD, Backlit KB, B&O (MSO, Black, 2.32 kg), wf1096TX"
   },
-  "product6": {
-    "title": "Hp",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p5": {
+    "title": "Asus Vivobook S 16 OLED 2024",
+    "price": "102,990",
+    "image":"https://m.media-amazon.com/images/I/71ZXQjHqJ0L._SX679_.jpg",
+    "description": "Display size 16.00-inch Display resolution 3200x2000 pixels Processor Intel Core Ultra 5 OS Windows 11 Pro SSD 1TB Graphics Intel Arc GPU"
   },
-  "product7": {
-    "title": "Hp",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p6": {
+    "title": "Lenovo LOQ Intel Core i7-13620H",
+    "price": "1,04,730",
+    "image":"https://m.media-amazon.com/images/I/81f7dTXcl4L._SX679_.jpg",
+    "description": "15.6\" (39.6cm) FHD IPS 144Hz 350Nits Gaming Laptop (16GB/512GB SSD/Win 11/NVIDIA RTX 4060 8GB/3 Month Game Pass/Office 2021/Storm Grey/2.4Kg), 82XV00BRIN"
   },
-  "product8": {
-    "title": "Asus",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p7": {
+    "title": "Lenovo Legion 5 Pro AMD Ryzen 7 6800H ",
+    "price": "1,09,990",
+    "image":"https://m.media-amazon.com/images/I/61P-aGTSCtL._SX679_.jpg",
+    "description": "16\" (40.64cm) 500nits WQXGA Gaming Laptop (16GB/1TB SSD/6GB RTX 3060/165Hz/Win11/Office/RGB Backlit/3Yr Warranty/3months Game Pass/Storm Grey/2.49Kg), 82RG009AIN"
   },
-  "product9": {
-    "title": "Asus",
-    "price": "2323",
-    "description": "This is a hp laptop"
+  "p8": {
+    "title": "HP Pavilion Plus 13th Gen Intel EVO Core i5-1340P",
+    "price": "72,990",
+    "image":"https://m.media-amazon.com/images/I/71Qido2mtwL._SX679_.jpg",
+    "description": "14inch(35.6 cm), Metal Body,TUV certified 2.2K,Micro Edge Display(16GB RAM/512GB SSD/B&O/5MP Camera/Intel Iris Xe Graphics/FPR/MSO/Win 11,14-eh1022TU"
   }
 }

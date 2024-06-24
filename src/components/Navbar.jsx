@@ -34,15 +34,16 @@ const Navbar = ({ user, setUser }) => {
   };
 
   const handleLogout = () => {
-    Cookie.remove("token");
+    if(window.confirm("Are you sure ?"))
+    {Cookie.remove("token");
     setUser({});
-    setLogin(true);
+    setLogin(true);}
   };
 
   //max-w-[1200px]
   return (
     <div className=" text-gray-400 bg-white h-[60px] max-w-[1300px] mx-auto flex justify-between items-center sticky top-0 z-10 ">
-      <h1 className="text-3xl font-bold primary-color">Laptop Gadgets</h1>
+      <h1 className="text-3xl font-bold primary-color">LaptopZone</h1>
       <ul className="hidden md:flex">
         <li className="p-5  ">
           <Link to="/" className="hover:text-red-500">
@@ -82,7 +83,7 @@ const Navbar = ({ user, setUser }) => {
         }
       >
         <h1 className="p-5 text-3xl font-bold primary-color ml-4">
-          Laptop Gadgets
+        LaptopZone
         </h1>
         <ul className="p-8 text-xl grid grid-cols-1 gap-5">
           <li className="p-2 ">
@@ -92,9 +93,9 @@ const Navbar = ({ user, setUser }) => {
           </li>
 
           <li className="p-2">
-            <a href="#carts" className="hover:text-red-500">
-              Carts
-            </a>
+          <Link to="cart" className="hover:text-red-500">
+            Carts
+          </Link>
           </li>
           <li className="p-2">
           {login ? (

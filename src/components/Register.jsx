@@ -12,7 +12,7 @@ const Register = () => {
       <div className="md:w-1/3 max-w-sm">
         <div className="text-center md:text-left"></div>
         <input
-          className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded outline-none"
+          className="text-sm w-full px-4 py-3 border border-solid border-gray-300 rounded outline-none"
           type="text"
           placeholder="Username"
           required
@@ -20,7 +20,7 @@ const Register = () => {
           onChange={(e) => setName(e.target.value)}
         />
         <input
-          className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mt-4 outline-none"
+          className="text-sm w-full px-4 py-3 border border-solid border-gray-300 rounded mt-4 outline-none"
           type="email"
           placeholder="Email Address"
           required
@@ -28,7 +28,7 @@ const Register = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
-          className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded mt-4 outline-none"
+          className="text-sm w-full px-4 py-3 border border-solid border-gray-300 rounded mt-4 outline-none"
           type="password"
           placeholder="Password"
           required

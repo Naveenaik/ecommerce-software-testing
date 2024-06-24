@@ -20,8 +20,8 @@ function App() {
               index
               element={<Home user={user} setUser={setUser} />}
             ></Route>
-            <Route path="/product/:title" element={<View />}></Route>
-            <Route path="/cart" element={<Cart />}></Route>
+            <Route path="/:pId" element={<View user={user} />}></Route>
+            <Route path="/cart" element={<Cart user={user} />}></Route>
           </Route>
           <Route path="/login" element={<Login setUser={setUser} />}></Route>
           <Route path="/register" element={<Register />}></Route>
