@@ -23,6 +23,10 @@ const signUp = async (userName, userEmail, userPassword) => {
 
 const signIn = async (userEmail, userPassword, setUser, navigate) => {
   try {
+    if(!userEmail)
+      alert("Email is not allowed to be empty");
+    if(!userPassword && userEmail)
+      alert("Password is not allowed to be empty");
     if(userEmail&&userPassword)
     await axios
       .post(`${baseUrl}/login`, {

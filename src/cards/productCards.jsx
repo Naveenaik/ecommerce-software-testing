@@ -11,7 +11,7 @@ const ProductCards = ({pId,title,image,price,description}) => {
   }
 
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-lg ring-2 ring-opacity-40 max-h-[100vh] hover:cursor-pointer " onClick={handleCard}>
+    <div className="bg-white rounded-lg overflow-hidden shadow-lg ring-2 ring-opacity-40 max-h-[100vh] hover:cursor-pointer " onClick={handleCard} id={pId}>
       <div className="relative">
         <img
           className="w-full"

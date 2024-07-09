@@ -10,7 +10,9 @@ const View = ({user}) => {
 
 
     const handleCart =(title,image,price,description) =>{
-        user && user._id ? addCart(title,image,price,description,user._id) : alert("Nosfgdg");
+        user && user._id ? addCart(title,image,price,description,user._id) : alert(
+          "Please login to add to cart"
+        );
     }
 
   return (
@@ -28,8 +30,8 @@ const View = ({user}) => {
           <div>₹ {devices[pId].price}</div>
           <div>{devices[pId].description}</div>
           <div className="flex justify-around gap-5">
-            <button className="bg-[#f3dd39] p-2 rounded hover:bg-[#b3a750bd] w-[50%]" onClick={()=>handleCart(devices[pId].title,devices[pId].image,devices[pId].price,devices[pId].description)}>Add to Cart</button>
-            <button className="bg-[#99f339] p-2 rounded hover:bg-[#80b350bd] w-[50%]">Buy</button>
+            <button id="cart" className="bg-[#f3dd39] p-2 rounded hover:bg-[#b3a750bd] w-[50%]" onClick={()=>handleCart(devices[pId].title,devices[pId].image,devices[pId].price,devices[pId].description)}>Add to Cart</button>
+            <button id="buy" className="bg-[#99f339] p-2 rounded hover:bg-[#80b350bd] w-[50%]">Buy</button>
           </div>
         </div>
       </div>
